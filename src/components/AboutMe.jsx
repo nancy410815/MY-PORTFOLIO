@@ -16,9 +16,11 @@ const AboutMe = () => {
                 </div>
                 <div className={styles.bio}>
                     <p>
-                        I'm a Software Engineer with three years of experience at STEMCELL Technologies in Vancouver, BC, where I develop web applications and contribute to leading major initiatives. I helped drive the migration from OutSystems to React, significantly improving performance, and integrated essential APIs like SAP and Amazon EFS through MuleSoft. Using AWS Amplify, I build secure, cloud-based solutions.                    </p>
+                        I'm a Software Engineer with three years of experience at STEMCELL Technologies in Vancouver, BC, where I develop web applications and contribute to leading major initiatives. I helped drive the migration from OutSystems to React, significantly improving performance, and integrated essential APIs like SAP and Amazon EFS through MuleSoft. Using AWS Amplify, I build secure, cloud-based solutions.
+                    </p>
                     <p>
-                        Previously, I worked with RBC, CIBC, and TD in Toronto, where I optimized Jenkins CI/CD pipelines, monitored applications with Splunk, and developed features using Python and Java. I'm passionate about delivering innovative, high-quality software solutions.                        </p>
+                        Previously, I worked with RBC, CIBC, and TD in Toronto, where I optimized Jenkins CI/CD pipelines, monitored applications with Splunk, and developed features using Python and Java. I'm passionate about delivering innovative, high-quality software solutions.
+                    </p>
                     <h3 className={styles.skillsHeading}>Skills</h3>
                     <ul className={styles.skillsList}>
                         <li>React</li>
@@ -33,6 +35,15 @@ const AboutMe = () => {
                         <li>RESTful APIs</li>
                         <li>GitHub Actions</li>
                     </ul>
+                    <div className={styles.downloadSection}>
+                        <a
+                            href="/resume.pdf"
+                            download="NancyChen_Resume.pdf"
+                            className={styles.downloadLink}
+                        >
+                            Download My Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
