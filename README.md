@@ -1,12 +1,27 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects as a Software Engineer. Built with **React** and **Vite**, it is designed to be fast, responsive, and visually appealing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **About Me**: Learn more about my background, skills, and experience.
+- **Work Experience**: Detailed timeline of my professional journey.
+- **Education**: Highlights of my academic achievements.
+- **Contact Section**: Get in touch with me via email or LinkedIn.
+- **Resume Download**: Download my resume directly from the website.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: Frontend library for building user interfaces.
+- **Vite**: Fast and modern build tool for development.
+- **SCSS**: For styling and maintaining a modular CSS structure.
+- **React Icons**: For beautiful and consistent icons.
+- **GitHub Pages**: For hosting the portfolio.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:nancy410815/MY-PORTFOLIO.git
